@@ -11,13 +11,17 @@
 <body>
 	<!-- HEADER STARTS  -->
 	<header class="container">
-		<img src="img/petstore_logo.png" alt="Logo Image" class="img-responsive logo pull-left">
-		<h1 class="brand pull-left">Pet Store</h1>
-		<ul class="nav nav-pills pull-right">
-			<li role="presentation" class="active"><a href="#">Home</a></li>
-			<li role="presentation"><a href="#">Products</a></li>
-			<li role="presentation"><a href="#">Contact Us</a></li>
-		</ul>
+		<div class="flex">
+			<span class="flex">
+				<img src="img/petstore_logo.png" alt="Logo Image" class="img-responsive logo pull-left">
+				<h1 class="brand pull-left">Pet Store</h1>
+			</span>
+			<ul class="nav nav-pills pull-right">
+				<li role="presentation" class="active"><a href="#">Home</a></li>
+				<li role="presentation"><a href="#">Products</a></li>
+				<li role="presentation"><a href="#">Contact Us</a></li>
+			</ul>
+		</div>
 	</header>
 	<!-- HEADER ENDS -->
 	<!-- JUMBOTRON STARTS -->
@@ -27,8 +31,113 @@
 		</div>
 	</div>
 	<!-- JUMBOTRON ENDS -->
+	<!-- CONTENT STARTS -->
+	<div class="container">
+		<!-- FEATURED & SERVICES STARTS -->
+		<div class="row">
+			<!-- FEATURED HALF STARTS -->
+			<div class="col-md-7">
+				<div class="row">
+					<div class="col-sm-12">
+						<h2 class="featured"><b>FEATURED</b></h2>
+						<p class="text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque ea sequi odio! Molestias, consequuntur repellat, maiores reiciendis quaerat dolorem enim tempore nesciunt voluptas aliquid nostrum facilis maxime? Dolores, ratione nostrum.</p>
+					</div>
+				</div>
+				<!-- THUMBNAILS START -->
+				<div class="row">
+					<!-- FIRST THUMBNAIL BEGINS -->
+					<div class="col-xs-6 col-md-4 thumbnail-container">
+						<div class="thumbnail athens">
+							<img src="img/product1.jpg" alt="Food Bowl" class="thumb-image">
+							<div class="caption content">
+								<h4><b>Dog Bowl</b></h4>
+								<p>The best dog bowl for your dog.</p>
+								<p><a href="#" class="btn btn-primary purchase" role="button">Purchase Now</a></p>
+							</div>
+						</div>
+					</div>
+					<!-- FIRST THUMBNAIL ENDS -->
+					<!-- SECOND THUMBNAIL BEGINS -->
+					<div class="col-xs-6 col-md-4 thumbnail-container">
+						<div class="thumbnail athens">
+							<img src="img/product2.jpg" alt="Cat Toy" class="thumb-image">
+							<div class="caption">
+								<h4><b>Cat Toy</b></h4>
+								<p>The best cat toy for your favorite cat.</p>
+								<p><a href="#" class="btn btn-primary purchase" role="button">Purchase Now</a></p>
+							</div>
+						</div>
+					</div>
+					<!-- SECOND THUMBNAIL ENDS -->
+					<!-- THIRD THUMBNAIL BEGINS -->
+					<div class="col-xs-6 col-md-4 thumbnail-container">
+						<div class="thumbnail athens">
+							<img src="img/product3.jpg" alt="Parrot Toys" class="thumb-image">
+							<div class="caption content">
+								<h4><b>Parrot Stuff</b></h4>
+								<p>The best parrot stuff for your parrot.</p>
+								<p><a href="#" class="btn btn-primary purchase" role="button">Purchase Now</a></p>
+							</div>
+						</div>
+					</div>
+					<!-- THIRD THUMBNAIL ENDS -->
+				</div>
+			</div>
+			<!-- THUMBNAIL ENDS -->
+			<!-- FEATURED HALF ENDS -->
+			<!-- SERVICES HALF STARTS -->
+			<div class="col-sm-3 col-sm-offset-2 text-center">
+				<h2><b>SERVICES</b></h2>
+				<ul class="nav nav-pills nav-stacked">
+					<li role="presentation"><a href="#"><h5>ADOPT A CAT</h5></a></li>
+					<div class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+					<li role="presentation"><a href="#"><h5>ADOPT A DOG</h5></a></li>
+					<div class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+					<li role="presentation"><a href="#"><h5>ADOPT A FISH</h5></a></li>
+					<div class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+				</ul>
+			</div>
+			<!-- SERVICE HALF ENDS -->
+		</div>
+		<!-- FEATURED & SERVICES ENDS -->
+	</div>
+	<!-- CONTENT ENDS -->
+
+	<!-- FOOTER STARTS -->
+	<div class="container footer-container">
+		<div class="row footer-logo-info">
+			<div class="col-sm-3 logo-footer-col">
+				<img src="img/petstore_logo.png" alt="Logo Image" class="img-responsive logo logo-footer">
+			</div>
+			<div class="col-sm-3 magnesium contact-info">Pet Store<br>Fresno, CA<br>info@petstore.com</div>
+			<div class="col-sm-3">
+				<i class="fab fa-twitter silver_sand"></i> 
+				<a href="https://twitter.com/?lang=en" class="silver_sand">Twitter</a>
+				<br>
+				<i class="fab fa-facebook-f silver_sand"></i>
+				<a href="https://facebook.com" class="silver_sand">Facebook</a>
+				<br>
+				<i class="fab fa-linkedin-in silver_sand"></i>
+				<a href="https://www.linkedin.com/" class="silver_sand">LinkedIn</a>
+			</div>
+		</div>
+		<div class="row rights-row">
+			<div class="col-sm-12 rights-reserved">&copy;Pet Store, Inc. All rights reserved.</div>
+		</div>
+	</div>
+		<!-- FOOTER ENDS -->
+
+		<!-- RYEKERS FOOTER STARTS
+		<footer class="container-fluid">
+			<div class="row">
+				<div class="col-sm-2">
+					<img class="img-responsive></img>
+				 -->
+
+		<!-- RYEKERS FOOTER ENDS -->
 	<!-- scripts -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/fontawesome-all.min.js"></script>
 </body>
 </html>
