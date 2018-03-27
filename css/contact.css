@@ -1,0 +1,17 @@
+.dr_name {
+    font-weight: 900;
+}
+
+
+
+/* TABLE STYLES START */
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: transparent;
+}
+
+.table_head {
+    font-weight: 900;
+}
+
+/* TABLE STYLES END */
